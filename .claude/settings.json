@@ -11,23 +11,23 @@
       "Grep",
       "Glob",
       "LS",
+      "Write",
+      "Edit",
+      "Bash(make:*)",
       "Bash(go:version)",
       "Bash(go:list:*)",
       "Bash(go:build:*)",
       "Bash(go:test:*)",
-      "Bash(gofmt:*)",
-      "Bash(goimports:*)",
-      "Bash(golangci-lint:run:*)"
-    ],
-    "ask": [
-      "Write",
-      "Edit",
-      "MultiEdit",
       "Bash(go:get:*)",
       "Bash(go:mod:tidy)",
-      "Bash(git:add:*)",
-      "Bash(git:commit:*)"
+      "Bash(go:vet:*)",
+      "Bash(gofmt:*)",
+      "Bash(goimports:*)",
+      "Bash(golangci-lint:run:*)",
+      "Bash(issue2md:*)",
+      "Bash(issue2mdweb:*)"
     ],
+    "ask": ["MultiEdit", "Bash(git:add:*)", "Bash(git:commit:*)"],
     "deny": [
       "Read(./.env*)",
       "Read(*.pem)",
